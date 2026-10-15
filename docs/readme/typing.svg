@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="40" viewBox="0 0 900 40">
+  <style>
+    text { font-family: 'Courier New', monospace; font-size: 18px; fill: #5ee7a0; }
+    .l { opacity: 0; }
+    .l1 { animation: show 9s infinite 0s; } .l2 { animation: show 9s infinite 3s; } .l3 { animation: show 9s infinite 6s; }
+    @keyframes show { 0% { opacity: 0; } 3%, 30% { opacity: 1; } 33%, 100% { opacity: 0; } }
+    .clip { animation: type 3s steps(40) infinite; }
+    @keyframes type { 0% { width: 0; } 50%, 90% { width: 900px; } 100% { width: 0; } }
+  </style>
+  <defs><clipPath id="c"><rect class="clip" x="0" y="0" height="40" width="0"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <text class="l l1" x="450" y="26" text-anchor="middle">&gt; preloader · 3D hero · pinned scroll stories</text>
+    <text class="l l2" x="450" y="26" text-anchor="middle">&gt; custom cursor · rolling buttons · page transitions</text>
+    <text class="l l3" x="450" y="26" text-anchor="middle">&gt; edit one file · drag &amp; drop · live on GitHub Pages</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64">
+  <defs>
+    <linearGradient id="t" x1="0" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5f6d"/><stop offset=".2" stop-color="#ffc371"/><stop offset=".4" stop-color="#f9f871"/>
+      <stop offset=".6" stop-color="#5ee7a0"/><stop offset=".8" stop-color="#4facfe"/><stop offset="1" stop-color="#a66cff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <text x="6" y="40" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="34" letter-spacing="2" fill="url(#t)">▶ QUICK START</text>
+  <rect x="6" y="52" height="3" rx="1.5" fill="url(#t)" width="0"><animate attributeName="width" values="0;260;260;0" keyTimes="0;.35;.85;1" dur="4s" repeatCount="indefinite"/></rect>
+  <circle cy="53.5" r="4" fill="#c2cabb"><animate attributeName="cx" values="6;266;266;6" keyTimes="0;.35;.85;1" dur="4s" repeatCount="indefinite"/></circle>
+</svg>

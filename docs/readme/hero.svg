@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="rb" x1="0" x2="1" y1="0" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5f6d"/><stop offset="0.17" stop-color="#ffc371"/>
+      <stop offset="0.34" stop-color="#f9f871"/><stop offset="0.51" stop-color="#5ee7a0"/>
+      <stop offset="0.68" stop-color="#4facfe"/><stop offset="0.85" stop-color="#a66cff"/>
+      <stop offset="1" stop-color="#ff5f6d"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10120f"/><stop offset="1" stop-color="#1d211b"/></linearGradient>
+  </defs>
+  <rect width="900" height="220" rx="18" fill="url(#bg)"/>
+  <g fill="#c2cabb" opacity=".12">
+    <ellipse cx="760" cy="182" rx="70" ry="22"><animate attributeName="ry" values="22;24;22" dur="5s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="760" cy="146" rx="50" ry="17"/><ellipse cx="760" cy="118" rx="32" ry="12"><animateTransform attributeName="transform" type="rotate" values="-2 760 118;2 760 118;-2 760 118" dur="4s" repeatCount="indefinite"/></ellipse>
+  </g>
+  <text x="50" y="58" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#c2cabb" opacity=".7">( PORTFOLIO TEMPLATE · v1.0 )</text>
+  <text x="46" y="140" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="88" letter-spacing="2" fill="url(#rb)">MONOCHROME FOLIO</text>
+  <text x="50" y="180" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.5" fill="#d2d8cb">React · GSAP · Lenis · Three.js — a quiet, motion-rich portfolio</text>
+  <rect x="50" y="194" width="0" height="2" fill="url(#rb)"><animate attributeName="width" values="0;380;380;0" keyTimes="0;.4;.8;1" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
